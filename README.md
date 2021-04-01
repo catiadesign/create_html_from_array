@@ -1,5 +1,5 @@
-# PHP Search All Database
-With this code, you can search entire database, by narrowing down the tables &amp; column to search in. Giving the flexibility to developer and efficiency to execute faster searches by lowering down the traversing nodes.<br/>
+# Create HTML from PHP Array
+With this function you can create Html very easy from an PHP Array.<br/>
 <li>Sample, Easy & Efficient searching.</li>
 <li>User friendly - pass parameters and get started</li>
 
