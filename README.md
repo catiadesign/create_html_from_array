@@ -1,12 +1,17 @@
 # Create HTML from PHP Array
 With this function you can create Html very easy from an PHP Array.<br/>
 <li>Sample, Easy & Efficient structure.</li>
-<li>User friendly - pass array and get started</li>
+<li>User friendly - pass Array and get started</li>
 
 # Usage
 
 ## How to use:
 
+Call the function
+
+'
+CreateHtml($all);
+'
 Assign `keyword to search` to varible `$search_keyword`
 ```php
 $search_keyword = "keyword";                            // search Keyword
