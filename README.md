@@ -9,49 +9,48 @@ With this function you can create Html very easy from an PHP Array.<br/>
 
 Call the function
 
-`
-CreateHtml(array(
-        array(
-            "?div" => "1",
-            "class" => "accordion",
+`CreateHtml(array(`
+        `array(
+            "?div" => "name",
+            "class" => "test",
             "style" => "position: relative;",
             "fn" => array(
                 function() {
                     return array(
-                        array("?div" => "aaaaaaaaa",
+                        array("?div" => "name",
                             array(
                                 "?input" => "",
                                 "type" => "submit",
-                                "value" => "sss",
-                                "class" => "call_button_simple",
+                                "value" => "name",
+                                "class" => "name",
                                 "style" => "width: 100%;"
                             ),
                         ),
                         array("?div" => "", "style" => "text-align: center; color: #494948; padding: 5px;",
-                            array("?output" => "", "name" => "info_message"),
+                            array("?output" => "", "name" => "name"),
                         ),            
                     );
                 },
                 function() {
                     return array(
-                        array("?div" => "aaaaaaaaa",
+                        array("?div" => "name",
                             array(
                                 "?input" => "",
                                 "type" => "submit",
-                                "value" => "sss",
-                                "class" => "call_button_simple",
+                                "value" => "name",
+                                "class" => "name",
                                 "style" => "width: 100%;"
                             ),
                         ),
-                        array("?div" => "", "style" => "text-align: center; color: #494948; padding: 5px;",
-                            array("?output" => "", "name" => "info_message"),
+                        array("?div" => "name", "style" => "text-align: center; color: #494948; padding: 5px;",
+                            array("?output" => "", "name" => "name"),
                         ),            
                     );
                 },                
             ),
             array(
                 "?div" => "3",
-                "class" => "accordion",
+                "class" => "name",
                 "style" => "position: relative;",                    
                 array(
                     "?div" => "4",
