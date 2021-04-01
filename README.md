@@ -9,9 +9,72 @@ With this function you can create Html very easy from an PHP Array.<br/>
 
 Call the function
 
-'
-CreateHtml($all);
-'
+`
+CreateHtml(array(
+        array(
+            "?div" => "1",
+            "class" => "accordion",
+            "style" => "position: relative;",
+            "fn" => array(
+                function() {
+                    return array(
+                        array("?div" => "aaaaaaaaa",
+                            array(
+                                "?input" => "",
+                                "type" => "submit",
+                                "value" => "sss",
+                                "class" => "call_button_simple",
+                                "style" => "width: 100%;"
+                            ),
+                        ),
+                        array("?div" => "", "style" => "text-align: center; color: #494948; padding: 5px;",
+                            array("?output" => "", "name" => "info_message"),
+                        ),            
+                    );
+                },
+                function() {
+                    return array(
+                        array("?div" => "aaaaaaaaa",
+                            array(
+                                "?input" => "",
+                                "type" => "submit",
+                                "value" => "sss",
+                                "class" => "call_button_simple",
+                                "style" => "width: 100%;"
+                            ),
+                        ),
+                        array("?div" => "", "style" => "text-align: center; color: #494948; padding: 5px;",
+                            array("?output" => "", "name" => "info_message"),
+                        ),            
+                    );
+                },                
+            ),
+            array(
+                "?div" => "3",
+                "class" => "accordion",
+                "style" => "position: relative;",                    
+                array(
+                    "?div" => "4",
+                    array(
+                        "?div" => "5",
+                    ),
+                ),
+            ),
+            array(
+                "?div" => "3",
+                array(
+                    "?div" => "4",
+                    array(
+                        "?div" => "5",
+                    ),
+                ),
+            ),
+        ),
+        array(
+            "?div" => "2",
+        ),
+));
+`
 Assign `keyword to search` to varible `$search_keyword`
 ```php
 $search_keyword = "keyword";                            // search Keyword
