@@ -9,8 +9,9 @@ With this function you can create Html very easy from an PHP Array.<br/>
 
 Call the function
 
-`CreateHtml(array(`
-        `array(
+```php
+CreateHtml(array(
+        array(
             "?div" => "name",
             "class" => "test",
             "style" => "position: relative;",
@@ -73,7 +74,9 @@ Call the function
             "?div" => "2",
         ),
 ));
-`
+```php
+
+
 Assign `keyword to search` to varible `$search_keyword`
 ```php
 $search_keyword = "keyword";                            // search Keyword
