@@ -5,11 +5,11 @@ With this function you can create Html very easy from an PHP Array.<br/>
 
 # Usage
 
-## How to use:
+<li>Create the array.</li>
+<li>The Tag Element must have before the `?` question mark.</li>
 
-The Tag Element must have before the `?` question mark.
 
-Call the function
+Create the array
 
 ```php
 $phpArray = array(
@@ -67,7 +67,11 @@ $phpArray = array(
 	    "?div" => "div2",
 	),
 );
+```
 
+Call the function
+
+```php
 CreateHtml($phpArray);
 
 
