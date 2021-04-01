@@ -1,4 +1,4 @@
-    
+<?php
     
     function CreateHtmlElements($dom, $insertInto, $array) {
         foreach($array as $k=>$v) {
@@ -30,3 +30,5 @@
         CreateHtmlElements($dom, $dom, $array);
         echo $dom->saveHTML();
     }
+
+?>
