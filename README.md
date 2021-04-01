@@ -12,7 +12,7 @@ The Tag Element must have before the `?` question mark.
 Call the function
 
 ```php
-CreateHtml(array(
+$phpArray = array(
 	array(
 	    "?div" => "div1",
 	    "class" => "test",
@@ -66,7 +66,10 @@ CreateHtml(array(
 	array(
 	    "?div" => "div2",
 	),
-));
+);
+
+CreateHtml($phpArray);
+
 ```php
 
 
