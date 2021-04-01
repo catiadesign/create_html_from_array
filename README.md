@@ -1,7 +1,7 @@
 # Create HTML from PHP Array
 With this function you can create Html very easy from an PHP Array.<br/>
-<li>Sample, Easy & Efficient searching.</li>
-<li>User friendly - pass parameters and get started</li>
+<li>Sample, Easy & Efficient structure.</li>
+<li>User friendly - pass array and get started</li>
 
 # Usage
 
