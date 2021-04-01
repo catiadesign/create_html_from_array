@@ -8,6 +8,7 @@ With this function you can create Html very easy from an PHP Array.<br/>
 <li>Create the array.</li>
 <li>The Tag Element must have before the `?` question mark.</li>
 <li>The "fn" key is for inserting functions in array, but they also have to return an array. The external variables for function must be Global and not as Parameters</li>
+<li>Add this 2 functions to your code CreateHtmlElements & CreateHtml</li>
 <br>
 Create the array
 
