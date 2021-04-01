@@ -7,12 +7,12 @@
                 $elem = $dom->createElement($str, htmlentities($v));
                 foreach($array as $k2=>$v2) {
                     if ($k2 != "" && strpos($k2, '?') === false) {
-                        if ($k2 != "fn" || !is_array($v2)) {
-                            $elem->setAttribute($k2, $v2);
-                        } else {
+                        if ($k2 == "fn") {
                             foreach($v2 as $v3) {
                                 CreateHtmlElements($dom, $elem, $v3());
-                            }
+                            }                            
+                        } else if (!is_array($v2)) {
+                            $elem->setAttribute($k2, $v2);
                         }
                     }
                 }
